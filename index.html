@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2&display=swap" rel="stylesheet">
+    
+</head>
+<body id="body2">
+
+
+
+<div id="largestDiv">
+
+    <div id="startdiv1">
+    <input type="text" placeholder="Enter Your Name" id="nameInput"><br>
+    <button id="startquizbtn" onclick="startQuiz()">Start Quiz</button>
+    </div>
+
+
+
+    <div id="quizmain">
+        <div id = "qdiv">
+            <h1  id="ques"></h1>
+        <ul id="oplist">
+            <li onclick="cc(this)" id="o1"></li>
+            <li onclick="cc(this)" id="o2"></li>
+            <li onclick="cc(this)" id="o3"></li>
+            <li onclick="cc(this)" id="o4"></li>
+        </ul>
+        </div>
+        <div id="qbtn">
+            <button onclick="Enter()" id="btnenter">Enter</button>
+            <button onclick="nextq()" id="cqbtn">Next</button>
+        </div>
+
+
+    </div>
+
+
+
+
+
+
+    <div id="startdiv3">
+        <img src="unnamed.png" alt="">
+        <div id="rb">
+            
+            <h2 id="dearid">Dear</h2>
+            <h1 id="skn"></h1>
+            <p id="respara">Your Score for This Quiz :  <span id="sspan"></span> / 6 </p>
+        </div>
+
+    </div>
+
+
+
+
+</div>
+
+    <script src="app.js"></script>
+</body>
+</html>

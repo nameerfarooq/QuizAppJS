@@ -1,0 +1,158 @@
+/* starting page */
+
+#body1{
+    background-color: #ffb800;
+    text-align: center;
+}
+#nameInput{
+    margin-top: 30vh;
+    height: 30px;
+    width: 230px;
+    color: white;
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-style: none;
+    padding-left: 10px;
+    background-color: #ffb800;
+    border-bottom: white 2px solid;
+}
+#nameInput:active,:focus{
+    
+    outline: none;
+
+
+}
+#startquizbtn{
+    margin-top: 12px;
+    width: 250px;
+    height: 40px;
+    border-radius: 25px;
+    border-style: none;
+    background-color: #fbfbfa;
+    font-family: 'Courgette', cursive;
+    font-size: x-large;
+    font-weight: bold;
+   
+    color: #ffb800;
+}
+#startquizbtn:hover{
+    cursor:pointer;
+}
+/* ............................................................ */
+/* ............................................................ */
+
+
+/* quiz page */
+*{
+    /* border: black 1px solid; */
+}
+
+#body2{
+    background-color: #ffb800;
+    text-align: center;
+}
+#quizmain{
+    /* margin-top: 15%; */
+    margin: 10% auto 0px auto;
+    max-width: 600px !important;
+    min-width: 280px;
+    background-color: white;
+    border-style: none;
+    border-radius: 30px;
+    padding: 15px;
+}
+
+li.active{
+    background-color: white;
+    color: #ff8a00;
+    font-weight: bold;
+    border: 2px grey  solid;
+}
+
+#ques{
+    font-family: 'Baloo Tamma 2', cursive;
+    color: #ff8a00;
+}
+#oplist{
+    padding: 15px;
+    /* background-color: unset; */
+}
+li{
+    border-style: none;
+    border-radius: 20px;
+    background-color: #ffb800;
+    color: white;
+    list-style: none;
+    margin: 8px;
+    text-align: left;
+    padding-left: 10px;
+    font-family: 'Baloo Tamma 2', cursive;
+}
+
+#btnenter,#cqbtn{
+    width: 100px;
+    background-color:#ffb800 ;
+    color: white;
+    font-family: 'Baloo Tamma 2', cursive;
+    font-size: medium;
+    border-radius: 20px;
+    border-style: none;
+}
+
+#btnenter:disabled,#cqbtn:disabled{
+    background-color: rgb(218, 216, 216);
+    color: rgb(163, 163, 163);
+  
+}
+
+.correct{
+    background-color: green;
+
+}
+.uncorrect{
+    background-color: red;
+}
+
+/* result  */
+/* ------------------------------ */
+
+
+#startdiv3{
+    padding: 20px;
+    max-width: 600px;
+    min-width: 280px;
+    margin-left: auto;
+    margin-right: auto;
+    
+
+}
+#rb{
+    border-left: 2px solid white;
+    padding-left: 15px;
+}
+#dearid{
+    font-family: 'Baloo Tamma 2', cursive;
+    color:white ;
+    text-align: left;
+
+}
+#skn{
+    font-family: 'Baloo Tamma 2', cursive;
+    font-size: 24pt;
+    color: #ff8a00;
+    text-align: left;
+    font-weight: bolder;
+
+}
+#respara{
+    text-align: left;
+    font-family: 'Baloo Tamma 2', cursive;
+    color: white;
+
+}
+#sspan{
+    font-family: 'Baloo Tamma 2', cursive;
+    font-size: 22pt;
+    font-weight: bold;
+    color:white;
+}
